@@ -140,6 +140,44 @@
     background: linear-gradient(90deg, transparent, var(--gold), transparent);
   }
 
+  /* Terms & Conditions Styles */
+  .terms-section {
+    background: rgba(201,169,110,0.02);
+    border: 1px solid rgba(201,169,110,0.1);
+    border-radius: 24px;
+    padding: 48px;
+  }
+  .terms-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--cream);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .terms-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+  }
+  .terms-section ul li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  .terms-section ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #C9A96E;
+    font-weight: bold;
+  }
+
   @keyframes glow-pulse {
     0%, 100% { opacity: 0.4; box-shadow: 0 0 10px rgba(201,169,110,0.2); }
     50% { opacity: 0.8; box-shadow: 0 0 20px rgba(201,169,110,0.4); }
@@ -197,6 +235,7 @@
       <a href="#samples" class="text-sm text-white/60 hover:text-white transition-colors">Samples</a>
       <a href="#pricing" class="text-sm text-white/60 hover:text-white transition-colors">Pricing</a>
       <a href="#process" class="text-sm text-white/60 hover:text-white transition-colors">Process</a>
+      <a href="#terms" class="text-sm text-white/60 hover:text-white transition-colors">Terms</a>
       <a href="https://www.facebook.com/Littledreaminvitations" target="_blank" class="text-sm px-5 py-2 rounded-full font-medium transition-all hover:scale-105" style="background: var(--gold); color: var(--charcoal);">Message Us</a>
     </div>
   </div>
@@ -500,6 +539,89 @@
         <h4 class="font-display text-lg font-500 mb-2" style="color: var(--cream);">Share</h4>
         <p class="text-white/40 text-sm leading-relaxed">Receive your custom link to text, email, or post on social media. Guests RSVP instantly!</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================== -->
+<!-- TERMS & CONDITIONS SECTION -->
+<!-- ============================================== -->
+<section id="terms" class="py-24 px-6 relative">
+  <div class="bg-glow"></div>
+  <div class="max-w-4xl mx-auto relative z-10">
+    <div class="reveal text-center mb-16">
+      <p class="text-xs tracking-[0.3em] uppercase mb-4" style="color: var(--gold);">Guidelines</p>
+      <h2 class="font-display text-4xl md:text-5xl font-500 tracking-tight" style="color: var(--cream);">Terms & Conditions</h2>
+      <p class="font-elegant text-lg text-white/40 max-w-2xl mx-auto mt-4 leading-relaxed">
+        By confirming your booking and paying the 50% downpayment, you agree to the following:
+      </p>
+    </div>
+
+    <div class="reveal terms-section">
+      
+      <!-- 1. Payment -->
+      <h3>
+        <span style="color: var(--gold); font-size: 1.5rem; font-family: 'Playfair Display', serif;">1.</span> 
+        Payment
+      </h3>
+      <ul>
+        <li>A 50% non-refundable downpayment is required before we start designing your invitation.</li>
+        <li>The remaining 50% balance must be paid before the live website link is released.</li>
+      </ul>
+
+      <!-- 2. Revisions -->
+      <h3>
+        <span style="color: var(--gold); font-size: 1.5rem; font-family: 'Playfair Display', serif;">2.</span> 
+        Revisions
+      </h3>
+      <ul>
+        <li>Revisions are limited to the number included in your chosen package.</li>
+        <li>Please carefully check all names, dates, times, venues, photos, and other details before giving your final approval.</li>
+        <li><strong style="color: var(--cream);">No revisions or edits will be accepted after the live website link has been delivered.</strong> Any additional changes will require a new booking or an additional fee.</li>
+      </ul>
+
+      <!-- 3. Website Hosting -->
+      <h3>
+        <span style="color: var(--gold); font-size: 1.5rem; font-family: 'Playfair Display', serif;">3.</span> 
+        Website Hosting
+      </h3>
+      <ul>
+        <li>Your invitation website will be hosted for up to 30 days before your event.</li>
+        <li>The website will be removed the day after your event or once the 30-day hosting period ends, whichever comes first.</li>
+        <li>Extended hosting is available upon request for an additional charge.</li>
+      </ul>
+
+      <!-- 4. Deliverables -->
+      <h3>
+        <span style="color: var(--gold); font-size: 1.5rem; font-family: 'Playfair Display', serif;">4.</span> 
+        Deliverables
+      </h3>
+      <ul>
+        <li>Live website invitation link.</li>
+        <li>PDF copy of your invitation sent to your email.</li>
+        <li>Downloadable RSVP guest list (available for Basic+ and Premium packages only).</li>
+      </ul>
+
+      <!-- 5. Client Responsibility -->
+      <h3>
+        <span style="color: var(--gold); font-size: 1.5rem; font-family: 'Playfair Display', serif;">5.</span> 
+        Client Responsibility
+      </h3>
+      <ul>
+        <li>Clients are responsible for providing complete and accurate information, as well as high-quality photos (if applicable).</li>
+        <li>Little Dream Invitations will not be held responsible for any errors that were approved by the client during the revision process.</li>
+      </ul>
+
+      <!-- 6. Cancellation & Refunds -->
+      <h3 style="margin-bottom: 0;">
+        <span style="color: var(--gold); font-size: 1.5rem; font-family: 'Playfair Display', serif;">6.</span> 
+        Cancellation & Refunds
+      </h3>
+      <ul style="margin-bottom: 0;">
+        <li>The 50% downpayment is non-refundable once the design process has started.</li>
+        <li>No refunds will be issued after the live website has been delivered.</li>
+      </ul>
+
     </div>
   </div>
 </section>
